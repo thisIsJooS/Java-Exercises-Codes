@@ -1,3 +1,4 @@
+//명품 Java Programming -  Open Challenge.(306p~307p)
 import java.util.Scanner;
 
 abstract class GameObject{ //추상 클래스
