@@ -1,4 +1,4 @@
-//명품 Java Programming 235p open challenge
+//명품 Java Programming 235p open challenge 
 import java.util.Scanner;
 
 public class WordGameApp{
