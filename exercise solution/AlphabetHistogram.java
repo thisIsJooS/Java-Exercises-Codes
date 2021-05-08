@@ -1,3 +1,4 @@
+//명품 Java Programming . Open Challenge 378p
 import java.util.Scanner;
 
 public class AlphabetHistogram{
