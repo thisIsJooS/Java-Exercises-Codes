@@ -45,18 +45,18 @@ public class GamblingGameFrame extends JFrame{
           @Override
           public void keyPressed(KeyEvent e){
             if(e.getKeyChar() == '\n'){
-            int x1 = (int)(Math.random()*5); 
-						labels[0].setText(Integer.toString(x1));
-						int x2 = (int)(Math.random()*5);
-						labels[1].setText(Integer.toString(x2));
-						int x3 = (int)(Math.random()*5);
-						labels[2].setText(Integer.toString(x3));
-						
-						if(x1 == x2 && x2 == x3) 
-							res.setText("축하합니다!!");
-						else
-							res.setText("아쉽군요.");
-            }
+          	int x1 = (int)(Math.random()*5); 
+		labels[0].setText(Integer.toString(x1));
+		int x2 = (int)(Math.random()*5);
+		labels[1].setText(Integer.toString(x2));
+		int x3 = (int)(Math.random()*5);
+		labels[2].setText(Integer.toString(x3));
+
+		if(x1 == x2 && x2 == x3) 
+			res.setText("축하합니다!!");
+		else
+			res.setText("아쉽군요.");
+		    }
           }
         });
         
