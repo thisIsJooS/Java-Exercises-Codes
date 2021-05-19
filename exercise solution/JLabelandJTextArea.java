@@ -14,7 +14,7 @@ public class JLabelandJTextArea extends JFrame{
   private JSlider sl;
   private StringBuffer sb = new StringBuffer();
   private JLabel val = new JLabel("0");
-  public MyFrame(){
+  public JLabelandJTextArea(){
     Container c = getContentPane();
     c.setLayout(null);
 
