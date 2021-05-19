@@ -15,6 +15,8 @@ public class JLabelandJTextArea extends JFrame{
   private StringBuffer sb = new StringBuffer();
   private JLabel val = new JLabel("0");
   public JLabelandJTextArea(){
+    super("JLabelandJTextArea");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     Container c = getContentPane();
     c.setLayout(null);
 
