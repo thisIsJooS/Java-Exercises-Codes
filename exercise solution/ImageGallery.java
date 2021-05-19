@@ -16,6 +16,8 @@ public class ImageGallery extends JFrame{
   private JLabel la;
   
   public ImageGallery(){
+    super("Image Gallery");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     Container c = getContentPane();
     c.setLayout(new BorderLayout());
     
