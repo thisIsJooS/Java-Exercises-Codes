@@ -6,8 +6,8 @@ import java.awt.event.*;
 import javax.swing.*;
 import java.util.*;
 
-public class drawCircle extends JFrame{
-  public drawCircle(){
+public class DrawCircle extends JFrame{
+  public DrawCircle(){
     super("Draw Circle");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     
@@ -18,7 +18,7 @@ public class drawCircle extends JFrame{
   }
   
   public static void main(String[] args){
-    new drawCircle();
+    new DrawCircle();
   }
 }
 
