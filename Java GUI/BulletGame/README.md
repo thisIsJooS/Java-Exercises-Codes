@@ -1,1 +1,1 @@
-<img src="./Captured_Execution_Screen.jpg">
+<img src="./Captured_Execution_Screen.gif">
